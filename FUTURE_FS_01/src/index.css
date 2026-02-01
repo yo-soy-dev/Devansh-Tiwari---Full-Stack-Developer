@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #020617;
+  --primary: #22d3ee;
+}
+
+body {
+  min-height: 100vh;
+  color: #e5e7eb;
+
+  background:
+    linear-gradient(
+      120deg,
+      #020617 0%,
+      #020617 30%,
+      rgba(34, 211, 238, 0.08) 50%,
+      rgba(99, 102, 241, 0.12) 65%,
+      #020617 85%
+    ),
+
+    /* soft cyan glow */
+    radial-gradient(
+      600px circle at 45% 35%,
+      rgba(34, 211, 238, 0.18),
+      transparent 55%
+    ),
+
+    /* subtle purple depth */
+    radial-gradient(
+      700px circle at 70% 60%,
+      rgba(139, 92, 246, 0.12),
+      transparent 60%
+    );
+
+  background-blend-mode: screen;
+}
+
+.animated-name {
+  background: linear-gradient(
+    270deg,
+    #22d3ee,
+    #3b82f6,
+    #8b5cf6,
+    #ec4899,
+    #22d3ee
+  );
+  background-size: 600% 600%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 6s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 400% 400%;
+  animation: gradientBG 10s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
