@@ -39,7 +39,7 @@ I’m a Full-Stack Developer building scalable web applications and AI-powered S
 **What I built**
 - Full-stack AI SaaS with tiered premium subscriptions and serverless PostgreSQL backend.
 - AI content generators, image/background editors, resume analyzer; integrated automated email workflows.
-**Impact:** Increased user productivity and engagement through automation and seamless UX.
+- **Impact:** Increased user productivity and engagement through automation and seamless UX.
 
 ---
 
@@ -48,7 +48,7 @@ I’m a Full-Stack Developer building scalable web applications and AI-powered S
 **What I built**
 - MERN resume builder with live preview, multi-template support, shareable links, and AI-driven resume optimization.
 - ImageKit integration for profile image processing (background removal & enhancement).
-**Impact:** Automated resume creation & improved ATS readiness for users.
+- **Impact:** Automated resume creation & improved ATS readiness for users.
 
 ---
 
@@ -57,7 +57,7 @@ I’m a Full-Stack Developer building scalable web applications and AI-powered S
 **What I built**
 - Full-stack cross-platform mobile app with JWT authentication, infinite scrolling feeds, and Cloudinary media uploads.
 - Real-time social feeds with complete CRUD operations, secure backend, and cloud deployment.
-**Impact:** Demonstrated end-to-end mobile app development with real-world auth, pagination, and media management.
+- **Impact:** Demonstrated end-to-end mobile app development with real-world auth, pagination, and media management.
 
 ---
 
