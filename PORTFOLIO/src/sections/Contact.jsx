@@ -13,6 +13,7 @@ export default function Contact() {
     setLoading(true);
     setResult("Sending...");
 
+    try{
     const formData = new FormData(e.target);
     formData.append(
       "access_key",
@@ -32,6 +33,12 @@ export default function Contact() {
     } else {
       setResult("❌ Error sending message. Please try again.");
     }
+    
+   } catch (error) {
+    setResult("❌ Network error. Please check your connection.");
+  }  finally {
+    setLoading(false);
+  }
   };
 
   return (
